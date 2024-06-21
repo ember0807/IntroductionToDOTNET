@@ -21,8 +21,7 @@ namespace Calc
 
 			Console.WriteLine("Введите второе число:");
 			num2 = double.Parse(Console.ReadLine());
-
-			if (operation == '+')
+            if (operation == '+')
 			{
 				Console.WriteLine($"Результат: {num1} + {num2} = {num1 + num2}");
 			}
