@@ -42,7 +42,8 @@ namespace Calc2
 				correct = true;
 				//Console.WriteLine("Введите арифмитическое выражение");
 				//string expression = Console.ReadLine();
-				string expression = "22 + 33 * 44 - 55 / 2";
+				string expression = "22 + 33 * 44 - 55 / 5";
+				//string expression = "22 * 33 / 44 * 55 / 5";
 				expression = expression.Replace(" ", "");
 				string s_operations = "+-*/";
 				String[] s_numbers = expression.Split(s_operations.ToCharArray());
@@ -68,32 +69,50 @@ namespace Calc2
 					continue;
 				}
 
+				//while(c_operations.Contains('*')|| c_operations.Contains ('/'))
+				{
+					for (int i = 0; i < c_operations.Length; i++)
+					{
+						
+						while (c_operations[i] == '*' || c_operations[i] == '/')
+						{
+							if (c_operations[i] == '*') d_numbers[i] *= d_numbers[i + 1];
+							if (c_operations[i] == '/') d_numbers[i] /= d_numbers[i + 1];
 
+							for (int j = i + 1; j < d_numbers.Length - 1; j++) d_numbers[j] = d_numbers[j + 1];
+							for (int j = i; j < c_operations.Length - 1; j++) c_operations[j] = c_operations[j + 1];
+							d_numbers[d_numbers.Length - 1] = 0;
+							c_operations[c_operations.Length - 1] = '\0';
+						}
+					}
+				}
 				for (int i = 0; i < c_operations.Length; i++)
 				{
-					if (c_operations[i] == '*' || c_operations[i] == '/')
+
+					while (c_operations[i] == '+' || c_operations[i] == '-')
 					{
-						if (c_operations[i] == '*') d_numbers[i] *= d_numbers[i + 1];
-						if (c_operations[i] == '/') d_numbers[i] /= d_numbers[i + 1];
+						if (c_operations[i] == '+') d_numbers[i] += d_numbers[i + 1];
+						if (c_operations[i] == '-') d_numbers[i] -= d_numbers[i + 1];
 
 						for (int j = i + 1; j < d_numbers.Length - 1; j++) d_numbers[j] = d_numbers[j + 1];
 						for (int j = i; j < c_operations.Length - 1; j++) c_operations[j] = c_operations[j + 1];
 						d_numbers[d_numbers.Length - 1] = 0;
 						c_operations[c_operations.Length - 1] = '\0';
 					}
+
 				}
 				for (int i = 0; i < d_numbers.Length; i++)
 				{
 					Console.Write(d_numbers[i] + "\t");
 				}
-                Console.WriteLine();
-                for (int i = 0; i < c_operations.Length; i++)
+				Console.WriteLine();
+				for (int i = 0; i < c_operations.Length; i++)
 				{
 					Console.Write(c_operations[i] + "\t");
 				}
-                Console.WriteLine();
+				Console.WriteLine();
 
-            } while (!correct);
+			} while (!correct);
 
 			//Main(args);
 
