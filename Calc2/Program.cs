@@ -40,7 +40,7 @@ namespace Calc2
 			//Console.WriteLine("Введите арифмитическое выражение");
 			//string expression = Console.ReadLine();
 			//string expression = "22 + 33 * 44 - 55 / 5";
-			string expression = "(22 + 33) *( 44 + 55) / 5";
+			string expression = "(22 + 33 *( 44 + 55)) / 5";
 			Console.WriteLine($"Result: {Browse(expression)}");
 			//Console.WriteLine("Введите арифмитическое выражение");
 			
