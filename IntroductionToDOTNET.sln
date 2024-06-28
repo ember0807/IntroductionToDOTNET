@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krestiki-noliki", "krestiki-noliki\krestiki-noliki.csproj", "{B37BA491-942C-40C2-AFE0-34DA9BBDB664}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{BB08D3C3-E221-47C6-BC97-08535226476C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B37BA491-942C-40C2-AFE0-34DA9BBDB664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37BA491-942C-40C2-AFE0-34DA9BBDB664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37BA491-942C-40C2-AFE0-34DA9BBDB664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB08D3C3-E221-47C6-BC97-08535226476C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB08D3C3-E221-47C6-BC97-08535226476C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB08D3C3-E221-47C6-BC97-08535226476C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB08D3C3-E221-47C6-BC97-08535226476C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
