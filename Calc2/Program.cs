@@ -165,7 +165,7 @@ namespace Calc
 			}
 			Console.WriteLine();
 
-			return d_numbers[0];
+			return d_numbers[0]; 
 		}
 	}
 }
