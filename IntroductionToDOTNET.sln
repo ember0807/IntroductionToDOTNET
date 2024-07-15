@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methods", "methods\methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractGeometry1", "AbstractGeometry1\AbstractGeometry1.csproj", "{9C220850-F09A-4825-A317-89646CD74962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{E7229894-5817-4F60-AA9D-EFF9DDC1E27A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9C220850-F09A-4825-A317-89646CD74962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C220850-F09A-4825-A317-89646CD74962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C220850-F09A-4825-A317-89646CD74962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7229894-5817-4F60-AA9D-EFF9DDC1E27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7229894-5817-4F60-AA9D-EFF9DDC1E27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7229894-5817-4F60-AA9D-EFF9DDC1E27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7229894-5817-4F60-AA9D-EFF9DDC1E27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
