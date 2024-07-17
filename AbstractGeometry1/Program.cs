@@ -21,6 +21,9 @@ namespace AbstractGeometry1
 
 			Rectangle rectangle = new Rectangle(100, 80, 200, 100, 5, Color.AliceBlue);
 			rectangle.Info(e);
+
+			Square square = new Square(120, 400, 100, 3, Color.Red);
+			square.Info(e);
 		}
 		[DllImport("kernel32.dll")]
 		public static extern bool GetStdHandle(int nStdHandle);
@@ -28,5 +31,7 @@ namespace AbstractGeometry1
 		public static extern IntPtr GetConsoleWindow();
 		[DllImport("kernel32.dll")]
 		public static extern IntPtr GetDC(IntPtr hwnd);
+
+
 	}
 }
