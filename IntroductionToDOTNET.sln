@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContainers", "DataConta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue", "queue\queue.csproj", "{9A69B441-6147-4B60-B772-46BA3BFEB21A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryThree\BinaryTree.csproj", "{C5399972-D7F4-46D2-8802-CC09DD63E825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{9A69B441-6147-4B60-B772-46BA3BFEB21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A69B441-6147-4B60-B772-46BA3BFEB21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A69B441-6147-4B60-B772-46BA3BFEB21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5399972-D7F4-46D2-8802-CC09DD63E825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5399972-D7F4-46D2-8802-CC09DD63E825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5399972-D7F4-46D2-8802-CC09DD63E825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5399972-D7F4-46D2-8802-CC09DD63E825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
